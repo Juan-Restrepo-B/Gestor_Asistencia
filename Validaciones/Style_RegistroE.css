@@ -1,0 +1,70 @@
+/*Floating Window*/
+  .order {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 90vw;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: rgb(60, 255, 0);
+    border-radius: 80px;
+  }
+  .contenido {
+    width: 88vw;
+    text-align: center;
+    display: block;
+    margin: 10px  auto;
+    background-color: black;
+    border-radius: 80px;
+  }
+  .icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .icon svg{
+    fill: rgb(60, 255, 0);
+    width: 100px;
+    display: flex;
+  }
+  .text {
+    color: #FFF;
+    font-size: 3.5rem;
+  }
+  span {
+    font-size: 2.5rem;
+  }
+@media (max-width: 800px) {
+  .text {
+    font-size: 2.5rem;
+  }
+  span {
+    font-size: 1.5rem;
+  }
+}
+/*Pie de pagina*/
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 20px;
+  background: #acacac4e;
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.class {
+  color: green;
+}
